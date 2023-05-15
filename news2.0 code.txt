@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="unnamed" type="image/png" href="C:\Users\Poorvi\Desktop\html" />
+
+    <meta name="steins gate" content="anime" />
+
+    <link
+      rel="apple-touch-icon"
+      type="image/png"
+      href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"
+    />
+
+    <link
+      rel="mask-icon"
+      type="image/x-icon"
+      href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"
+      color="#111"
+    />
+
+    <title>TOP 10 ANIMES</title>
+
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: white;
+        background-color: rgb(3, 4, 52);
+      }
+
+      .container {
+        max-width: 90rem;
+        margin: 2rem auto;
+        padding: 0px 2rem;
+      }
+
+      .img-fluid {
+        max-width: 100%;
+      }
+      .logo img {
+        width: 70px;
+        height: 70px;
+        border-radius: 41px;
+        outline: 4px solid rgb(231, 14, 14);
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+        align-items: center;
+      }
+
+      .items {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .items a:link {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .items a:hover {
+        color: red;
+      }
+
+      .active {
+        color: red !important;
+      }
+
+      button {
+        font-size: 2rem;
+        padding: 0.6rem 1rem;
+        font-weight: bold;
+        color: white;
+        background: linear-gradient(to right, #c31432, #892211);
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        cursor: pointer;
+        border: none;
+      }
+
+      button:hover {
+        background: white;
+        outline: 1px solid red;
+        color: red;
+        border: none;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+      }
+      .short-info {
+        color: red;
+        font-size: 1rem;
+        margin-bottom: 0.9rem;
+      }
+
+      .hero-heading {
+        font-size: 3rem;
+        margin-bottom: 0.3rem;
+      }
+      .hero-sub-heading {
+        font-size: 0.9rem;
+        opacity: 0.7;
+      }
+
+      .users {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0px;
+      }
+      .user {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid red;
+      }
+      .learn-more {
+        align-self: start;
+        margin-top: 3rem;
+      }
+
+      /* media queries */
+
+      @media only screen and (max-width: 800px) {
+        .items {
+          display: none;
+        }
+
+        .row {
+          grid-template-columns: 1fr;
+        }
+        .learn-more {
+          align-self: start;
+          margin: 1rem 0px;
+        }
+      }
+    </style>
+
+    <script>
+      window.console = window.console || function (t) {};
+    </script>
+  </head>
+
+  <body translate="no">
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"
+          />
+        </div>
+        <div class="items">
+          <a href="#" class="active">Home</a>
+          <a href="#">Service</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Blog</a>
+        </div>
+
+        <div class="other">
+          <button>Log in</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="info">
+            <p class="short-info">#Watch the best animes</p>
+            <h2 class="hero-heading">Top 10 animes to watch in 2023</h2>
+            <p class="hero-sub-heading">
+              Animes of every genre. This will help to choose anime according to
+              your mood. Multiple choices for every mood. Filter the the type
+              get the best anime to watch.
+            </p>
+            <div class="users">
+              <img
+                src="https://play-lh.googleusercontent.com/ApasDTdghwHxtU5xN44d7Azr4jScDPo2In-mVHzmrI1vwC7aBPOsmP9H9Da694johg"
+                class="img-fluid user"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/ApasDTdghwHxtU5xN44d7Azr4jScDPo2In-mVHzmrI1vwC7aBPOsmP9H9Da694johg"
+                class="img-fluid user"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/ApasDTdghwHxtU5xN44d7Azr4jScDPo2In-mVHzmrI1vwC7aBPOsmP9H9Da694johg"
+                class="img-fluid user"
+              />
+              <img
+                src="https://play-lh.googleusercontent.com/ApasDTdghwHxtU5xN44d7Azr4jScDPo2In-mVHzmrI1vwC7aBPOsmP9H9Da694johg"
+                class="img-fluid user"
+              />
+              <p>10+ users</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+          </div>
+          <div class="hero-image">
+            <img
+              src="https://play-lh.googleusercontent.com/ApasDTdghwHxtU5xN44d7Azr4jScDPo2In-mVHzmrI1vwC7aBPOsmP9H9Da694johg"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
+  </body>
+</html>
